@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  server:
+    image: ghcr.io/thornjad/karlsfriendship
+    restart: unless-stopped
+    ports:
+      - 80:80
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "20m"
