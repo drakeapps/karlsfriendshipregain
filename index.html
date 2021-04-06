@@ -13,10 +13,18 @@
     <style>
      main {
        display: flex;
-       min-height: 100vh;
+       min-height: 80vh;
        justify-content: center;
        align-items: center;
      }
+     img {
+       animation: shake 10s;
+       animation-iteration-count: infinite;
+       border: 1px solid #285a82;
+       padding: 15px;
+       border-radius: 4px;
+     }
+
      /* Taken from https://elrumordelaluz.github.io/csshake/
         Copyright (c) 2015 Lionel T
         Under the terms of the MIT License */
@@ -71,10 +79,6 @@
        96% {transform:translate(2.5px, 2.5px) rotate(.5deg)}
        98% {transform:translate(2.5px, -.5px) rotate(.5deg)}
        0%, 100% {transform:translate(0, 0) rotate(0)}
-     }
-     img {
-       animation: shake 10s;
-       animation-iteration-count: infinite;
      }
     </style>
   </head>
