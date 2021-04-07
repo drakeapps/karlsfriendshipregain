@@ -13,9 +13,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/drakeapps/thornjad/issues"
+    "url": "https://github.com/thornjad/karlsfriendshipregain/issues"
   },
-  "homepage": "https://github.com/drakeapps/thornjad#readme",
+  "homepage": "https://github.com/thornjad/karlsfriendshipregain#readme",
   "dependencies": {
     "canvas-confetti": "^1.4.0",
     "parcel-bundler": "^1.12.5",
