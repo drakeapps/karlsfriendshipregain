@@ -38,7 +38,7 @@ const randomInRange = (min, max) => {
 	return Math.random() * (max - min) + min;
 };
 const interval = setInterval(() => {
-	var timeLeft = animationEnd - Date.now();
+	const timeLeft = animationEnd - Date.now();
 
 	if (timeLeft <= 0) {
 		return clearInterval(interval);
