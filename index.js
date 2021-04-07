@@ -30,9 +30,9 @@ frame();
 
 // fireworks
 
-var duration = 60 * 1000;
-var animationEnd = Date.now() + duration;
-var defaults = { startVelocity: 30, spread: 360, ticks: 60, zIndex: 0 };
+const duration = 60 * 1000;
+const animationEnd = Date.now() + duration;
+const defaults = { startVelocity: 30, spread: 360, ticks: 60, zIndex: 0 };
 
 const randomInRange = (min, max) => {
 	return Math.random() * (max - min) + min;
