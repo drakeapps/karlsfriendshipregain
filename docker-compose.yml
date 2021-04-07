@@ -2,7 +2,7 @@ version: '3'
 
 services:
   server:
-    image: ghcr.io/thornjad/karlsfriendship
+    image: ghcr.io/thornjad/karlsfriendshipregain
     restart: unless-stopped
     ports:
       - 80:80
